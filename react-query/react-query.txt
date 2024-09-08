@@ -1,0 +1,50 @@
+install korte hobe strantaq query theke react query 
+
+ 
+import {QueryClient,QueryClientProvider} from '@tanstack/react-query'
+
+tarpor uporer gula import korte hobe
+
+
+const queryClient = new QueryClient();
+
+
+<QueryClientProvider client={queryClient}>
+      {" "}
+      <App />
+    </QueryClientProvider>
+
+
+
+react query debug korte react query devtool install korte hoy 
+
+
+stealtime er kaj holo jodi kono data change na hoy sei jonne ei interval use kora hoy
+
+
+main.js ee use kora hoyeche karon poro app lagbe stael time
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: 5000,
+    },
+  },
+});
+
+
+import { useQuery } from "@tanstack/react-query";
+
+
+fetch data reactquery dara catch madhome rakhte hoy
+
+  const {
+    data: products,
+    error,
+    isLoading,
+  } = useQuery({
+    queryKey: ["products"],
+    queryFn: retrieveProduct,
+    retry: false,
+  });
+

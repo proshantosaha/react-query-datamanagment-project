@@ -1,0 +1,28 @@
+first -- npm init 
+second == ekta simple description
+tarpor sob skip kore enter dara 
+
+author name --- dete hobe 
+licens--- mit 
+
+
+
+
+tarpor dekhbo ekta packege.json pawa gece 
+
+tarpor npm i json-server korte hobe (i meam install)
+
+
+tarpor database folder er vitore ekta data.json file create korte hobe pore ekta product json data create korte hobe 
+
+
+tarpor packege.json jeye ekta script likhte hobe  . script ta holo start 
+
+
+"start": "echo \"Error: no test specified\" && exit 1" 
+
+
+start er dan diker line ta likhte hobe databasefolder stuckture upor defen kore
+
+
+start:"json-server --watch ./database/data.json"
